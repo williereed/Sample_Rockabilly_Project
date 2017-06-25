@@ -337,7 +337,9 @@ namespace SeleniumCommon
             {
                 try
                 {
-                    webDriver = new PhantomJSDriver();
+                    PhantomJSDriverService service = PhantomJSDriverService.CreateDefaultService();
+                    service.HideCommandPromptWindow = true;
+                    webDriver = new PhantomJSDriver(service);
                     browserVersion = ((RemoteWebDriver)webDriver).Capabilities.Version;
                     Test.Log.Message("PhantomJS " + browserVersion);
                 }
@@ -709,10 +711,12 @@ namespace SeleniumCommon
                     return "FireFox";
                 case TestSuites.INTERNETEXPLORER:
                     return "Internet Explorer";
+                case TestSuites.PHANTOMJS:
+                    return "PhantomJS";
                 case TestSuites.SAFARI:
                     return "Safari";
                 default:
-                    return "Unsupport";
+                    return "Unsupported browser specified in NormalizeBrowserName";
             }
         }
 

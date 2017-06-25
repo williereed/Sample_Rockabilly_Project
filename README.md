@@ -5,7 +5,7 @@ Directions - Open the Solution and:
 1. Right Click SampleApp set it to be the Startup project
 2. Right Click the Solution and select Properties
 3. Select the Debug tab
-4. In the Command Line Arguments enter: Run All Chrome;Edge;Firefox;InternetExplorer
+4. In the Command Line Arguments enter: Run All Chrome;Edge;Firefox;InternetExplorer;PhantomJS
 
 Browser Support:
 

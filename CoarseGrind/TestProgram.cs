@@ -114,6 +114,7 @@ namespace Rockabilly.CoarseGrind
                     arg.Contains("EDGE") ||
                     arg.Contains("FIREFOX") ||
                     arg.Contains("INTERNETEXPLORER") ||
+                    arg.Contains("PHANTOMJS") ||
                     arg.Contains("SAFARI"))
                 {
                     CmdLineBrowsersSpecified += ";" + arg;
