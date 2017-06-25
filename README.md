@@ -9,10 +9,13 @@ Directions - Open the Solution and:
 
 Browser Support:
 
+
 Internet Explorer
 
 It is required to read the following:
+
 https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration
+
 
 Edge
 
