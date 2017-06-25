@@ -17,6 +17,9 @@ https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-conf
 Edge
 
 Must be running a Windows Insider Preview to enable the Edge driver to run successfully.
+
 I am running Windows 10 Enterprise Insider Preview Build 16226.rs_prerelease 170616-2021
+
 This project includes the Edge driver version 10.0.16215.1000
+
 The Edge driver (16215) and Windows (16226) should be the same number.
