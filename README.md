@@ -1,13 +1,11 @@
 # Sample_Rockabilly_Project
 Adds Selenium via Nuget, adds Environment and Browser to Test Case name
 
-Open the Solution and:
+Directions - Open the Solution and:
 1. Right Click SampleApp set it to be the Startup project
 2. Right Click the Solution and select Properties
-
-2a. Select the Debug tab
-
-2b. In the Command Line Arguments enter: Run All Chrome;Edge;Firefox;InternetExplorer
+3. Select the Debug tab
+4. In the Command Line Arguments enter: Run All Chrome;Edge;Firefox;InternetExplorer
 
 Browser Support:
 
